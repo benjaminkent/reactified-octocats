@@ -2,7 +2,9 @@ import React, { Component } from 'react';
 
 class Octocat extends Component {
     state = {}
+
     render() {
+
         return (
             <article className="cat-element">
                 <div className="top-image">
@@ -18,3 +20,6 @@ class Octocat extends Component {
 }
 
 export default Octocat;
+
+
+
